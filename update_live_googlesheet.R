@@ -1,6 +1,10 @@
 library(tidyverse)
 library(googlesheets4)
 
+## apologies for all the hardcoded non-relative paths, 
+# was having issues with launchd service and seemed to be required to get the
+#job tor run automatically
+
 service_account_key_path <- "/Users/jacksoncurtis/Documents/Masters/static-bond-162921-854527ade866.json"
 
 # Authenticate using the service account key
